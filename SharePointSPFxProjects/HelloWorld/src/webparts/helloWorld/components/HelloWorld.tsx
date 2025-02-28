@@ -3,7 +3,27 @@ import styles from "./HelloWorld.module.scss";
 import type { IHelloWorldProps } from "./IHelloWorldProps";
 import { escape } from "@microsoft/sp-lodash-subset";
 
+//SPHttpClientResponse
+import { SPHttpClient } from "@microsoft/sp-http";
+
+export interface ISPList {
+  Title: string;
+  Id: string;
+}
+export interface ISPLists {
+  value: ISPList[];
+}
+
 export default class HelloWorld extends React.Component<IHelloWorldProps> {
+  private async _getListData(): Promise<ISPLists> {
+    const response = await this.props.context.spHttpClient.get(
+      `${this.props.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`,
+      SPHttpClient.configurations.v1
+    );
+
+    return response.json();
+  }
+
   public render(): React.ReactElement<IHelloWorldProps> {
     const {
       description,
@@ -16,6 +36,10 @@ export default class HelloWorld extends React.Component<IHelloWorldProps> {
       hasTeamsContext,
       userDisplayName,
     } = this.props;
+
+    this._getListData()
+      .then((items) => console.log(items))
+      .catch((err) => console.log(err));
 
     return (
       <section
@@ -45,70 +69,6 @@ export default class HelloWorld extends React.Component<IHelloWorldProps> {
         </div>
         <div>
           <h3>Welcome to SharePoint Framework!</h3>
-          <p>
-            The SharePoint Framework (SPFx) is a extensibility model for
-            Microsoft Viva, Microsoft Teams and SharePoint. It&#39;s the easiest
-            way to extend Microsoft 365 with automatic Single Sign On, automatic
-            hosting and industry standard tooling.
-          </p>
-          <h4>Learn more about SPFx development:</h4>
-          <ul className={styles.links}>
-            <li>
-              <a href="https://aka.ms/spfx" target="_blank" rel="noreferrer">
-                SharePoint Framework Overview
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://aka.ms/spfx-yeoman-graph"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Use Microsoft Graph in your solution
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://aka.ms/spfx-yeoman-teams"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Build for Microsoft Teams using SharePoint Framework
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://aka.ms/spfx-yeoman-viva"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Build for Microsoft Viva Connections using SharePoint Framework
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://aka.ms/spfx-yeoman-store"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Publish SharePoint Framework applications to the marketplace
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://aka.ms/spfx-yeoman-api"
-                target="_blank"
-                rel="noreferrer"
-              >
-                SharePoint Framework API reference
-              </a>
-            </li>
-            <li>
-              <a href="https://aka.ms/m365pnp" target="_blank" rel="noreferrer">
-                Microsoft 365 Developer Community
-              </a>
-            </li>
-          </ul>
         </div>
       </section>
     );

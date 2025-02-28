@@ -1,4 +1,7 @@
+import { WebPartContext } from "@microsoft/sp-webpart-base";
+
 export interface IHelloWorldProps {
+  context: WebPartContext;
   description: string;
   test: string;
   test1: boolean;
