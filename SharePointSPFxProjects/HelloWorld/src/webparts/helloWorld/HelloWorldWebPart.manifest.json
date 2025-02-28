@@ -22,7 +22,11 @@
     "description": { "default": "HelloWorld description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "HelloWorld"
+      "description": "HelloWorld",
+      "test": "This is default value from <web_part_name>.manitifest.json",
+      "test1": true,
+      "test2": "This is default value from <web_part_name>.manitifest.json",
+      "test3": false
     }
   }]
 }
