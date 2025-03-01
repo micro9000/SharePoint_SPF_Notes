@@ -15,13 +15,24 @@ export interface ISPLists {
 }
 
 export default class HelloWorld extends React.Component<IHelloWorldProps> {
-  private async _getListData(): Promise<ISPLists> {
+  state = {
+    sharePointLists: {} as ISPLists,
+  };
+
+  getListData = async (): Promise<ISPLists> => {
+    console.log("getListData was called");
     const response = await this.props.context.spHttpClient.get(
       `${this.props.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`,
       SPHttpClient.configurations.v1
     );
 
     return response.json();
+  };
+
+  componentDidMount(): void {
+    this.getListData()
+      .then((items) => this.setState({ sharePointLists: items }))
+      .catch((err) => console.log(err));
   }
 
   public render(): React.ReactElement<IHelloWorldProps> {
@@ -36,10 +47,6 @@ export default class HelloWorld extends React.Component<IHelloWorldProps> {
       hasTeamsContext,
       userDisplayName,
     } = this.props;
-
-    this._getListData()
-      .then((items) => console.log(items))
-      .catch((err) => console.log(err));
 
     return (
       <section
@@ -69,6 +76,14 @@ export default class HelloWorld extends React.Component<IHelloWorldProps> {
         </div>
         <div>
           <h3>Welcome to SharePoint Framework!</h3>
+
+          {this.state.sharePointLists.value?.map((item) => (
+            <ul className={styles.list} key={item.Id}>
+              <li className={styles.listItem}>
+                <span className="ms-font-l">{item.Title}</span>
+              </li>
+            </ul>
+          ))}
         </div>
       </section>
     );
