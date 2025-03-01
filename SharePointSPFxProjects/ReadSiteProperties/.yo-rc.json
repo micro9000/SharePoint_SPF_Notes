@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.7",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "read-site-properties",
+    "libraryId": "023a8641-ea15-4c3a-806b-e682e00f40e2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "read-site-properties",
+    "solutionShortDescription": "read-site-properties description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
