@@ -20,7 +20,6 @@ export default class HelloWorld extends React.Component<IHelloWorldProps> {
   };
 
   getListData = async (): Promise<ISPLists> => {
-    console.log("getListData was called");
     const response = await this.props.context.spHttpClient.get(
       `${this.props.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`,
       SPHttpClient.configurations.v1
