@@ -4,47 +4,32 @@ import { Version } from "@microsoft/sp-core-library";
 import {
   type IPropertyPaneConfiguration,
   PropertyPaneTextField,
-  PropertyPaneCheckbox,
-  PropertyPaneDropdown,
-  PropertyPaneToggle,
 } from "@microsoft/sp-property-pane";
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 import { IReadonlyTheme } from "@microsoft/sp-component-base";
 
-import * as strings from "HelloWorldWebPartStrings";
-import HelloWorld from "./components/HelloWorld";
-import { IHelloWorldProps } from "./components/IHelloWorldProps";
+import * as strings from "NewListCreationWebPartStrings";
+import NewListCreation from "./components/NewListCreation";
+import { INewListCreationProps } from "./components/INewListCreationProps";
 
-export interface IHelloWorldWebPartProps {
+export interface INewListCreationWebPartProps {
   description: string;
-  test: string;
-  test1: boolean;
-  test2: string;
-  test3: boolean;
-  hardCodedDescriptionProperty: string;
-  hardCodedProperty: boolean;
 }
 
-export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
+export default class NewListCreationWebPart extends BaseClientSideWebPart<INewListCreationWebPartProps> {
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = "";
 
   public render(): void {
-    const element: React.ReactElement<IHelloWorldProps> = React.createElement(
-      HelloWorld,
-      {
+    const element: React.ReactElement<INewListCreationProps> =
+      React.createElement(NewListCreation, {
         context: this.context,
         description: this.properties.description,
-        test: this.properties.test,
-        test1: this.properties.test1,
-        test2: this.properties.test2,
-        test3: this.properties.test3,
         isDarkTheme: this._isDarkTheme,
         environmentMessage: this._environmentMessage,
         hasTeamsContext: !!this.context.sdks.microsoftTeams,
         userDisplayName: this.context.pageContext.user.displayName,
-      }
-    );
+      });
 
     ReactDom.render(element, this.domElement);
   }
@@ -53,10 +38,6 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
     return this._getEnvironmentMessage().then((message) => {
       this._environmentMessage = message;
     });
-  }
-
-  protected get disableReactivePropertyChanges(): boolean {
-    return true;
   }
 
   private _getEnvironmentMessage(): Promise<string> {
@@ -140,75 +121,6 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
               groupFields: [
                 PropertyPaneTextField("description", {
                   label: strings.DescriptionFieldLabel,
-                }),
-                PropertyPaneTextField("test", {
-                  label: "Multi-line Text Field",
-                  multiline: true,
-                }),
-                PropertyPaneCheckbox("test1", {
-                  text: "Checkbox",
-                }),
-                PropertyPaneDropdown("test2", {
-                  label: "Dropdown",
-                  options: [
-                    { key: 1, text: "one" },
-                    { key: 2, text: "two" },
-                    { key: 3, text: "three" },
-                  ],
-                }),
-                PropertyPaneToggle("test3", {
-                  label: "Toggle",
-                  onText: "On",
-                  offText: "Off",
-                }),
-              ],
-            },
-            {
-              groupName: "Hard coded group",
-              groupFields: [
-                PropertyPaneTextField("hardCodedDescriptionProperty", {
-                  label: strings.DescriptionFieldLabel,
-                }),
-                PropertyPaneToggle("hardCodedProperty", {
-                  label: "Toggle 2",
-                  onText: "On",
-                  offText: "Off",
-                }),
-              ],
-            },
-          ],
-        },
-
-        {
-          header: {
-            description: "Hard coded page",
-          },
-          groups: [
-            {
-              groupName: strings.BasicGroupName,
-              groupFields: [
-                PropertyPaneTextField("description", {
-                  label: strings.DescriptionFieldLabel,
-                }),
-                PropertyPaneTextField("test", {
-                  label: "Multi-line Text Field",
-                  multiline: true,
-                }),
-                PropertyPaneCheckbox("test1", {
-                  text: "Checkbox",
-                }),
-                PropertyPaneDropdown("test2", {
-                  label: "Dropdown",
-                  options: [
-                    { key: 1, text: "one" },
-                    { key: 2, text: "two" },
-                    { key: 3, text: "three" },
-                  ],
-                }),
-                PropertyPaneToggle("test3", {
-                  label: "Toggle",
-                  onText: "On",
-                  offText: "Off",
                 }),
               ],
             },

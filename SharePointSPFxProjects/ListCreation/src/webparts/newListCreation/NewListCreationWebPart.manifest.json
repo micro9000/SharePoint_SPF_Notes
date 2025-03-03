@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "6eb851bb-5ace-421f-bbf5-9644917ab852",
-  "alias": "HelloWorldWebPart",
+  "id": "d415ad78-7502-4639-9bdf-a47fe0fc8c2d",
+  "alias": "NewListCreationWebPart",
   "componentType": "WebPart",
 
   // The "*" signifies that the version should be taken from the package.json
@@ -18,15 +18,11 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
     "group": { "default": "Advanced" },
-    "title": { "default": "My HelloWorld Web part" },
-    "description": { "default": "HelloWorld web part description" },
+    "title": { "default": "NewListCreation" },
+    "description": { "default": "NewListCreation description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "HelloWorld new value",
-      "test": "This is default value from <web_part_name>.manitifest.json",
-      "test1": true,
-      "test2": "This is default value from <web_part_name>.manitifest.json",
-      "test3": false
+      "description": "NewListCreation"
     }
   }]
 }

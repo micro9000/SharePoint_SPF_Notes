@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.7",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "list-creation",
+    "libraryId": "e109e761-0ab2-464a-acd1-ccf23ac6cbd5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "list-creation",
+    "solutionShortDescription": "list-creation description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
