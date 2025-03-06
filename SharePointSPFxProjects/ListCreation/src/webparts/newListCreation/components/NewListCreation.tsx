@@ -68,7 +68,7 @@ const NewListCreation = (props: INewListCreationProps) => {
           context.spHttpClient
             .post(url, SPHttpClient.configurations.v1, spHttpClientOptions)
             .then((response: SPHttpClientResponse) => {
-              if (response.status == 201) {
+              if (response.status === 201) {
                 alert("A new list has been created successfully");
               } else {
                 console.log("Create post method", response);

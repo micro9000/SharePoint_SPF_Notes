@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/newListCreation/NewListCreationWebPart.manifest.json"
         }
       ]
+    },
+    "create-site-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createSite/CreateSiteWebPart.js",
+          "manifest": "./src/webparts/createSite/CreateSiteWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "NewListCreationWebPartStrings": "lib/webparts/newListCreation/loc/{locale}.js"
+    "NewListCreationWebPartStrings": "lib/webparts/newListCreation/loc/{locale}.js",
+    "CreateSiteWebPartStrings": "lib/webparts/createSite/loc/{locale}.js"
   }
 }
