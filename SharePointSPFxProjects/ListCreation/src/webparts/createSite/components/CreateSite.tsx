@@ -48,6 +48,7 @@ const CreateSite = (props: ICreateSiteProps) => {
     console.log(subSiteName, subSiteUrl, subSiteDescription);
 
     const url = context.pageContext.web.absoluteUrl + "/_api/web/webinfos/add";
+    // Property names are case-sensitive
     const requestBody: any = {
       parameters: {
         "@data.type": "SP.WebInfoCreationInformation",
