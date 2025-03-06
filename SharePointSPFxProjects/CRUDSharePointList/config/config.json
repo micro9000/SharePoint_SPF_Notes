@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/crudSharePointList/CrudSharePointListWebPart.manifest.json"
         }
       ]
+    },
+    "crud-sharepoint-pnpjs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudSharepointPnpjs/CrudSharepointPnpjsWebPart.js",
+          "manifest": "./src/webparts/crudSharepointPnpjs/CrudSharepointPnpjsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "CrudSharePointListWebPartStrings": "lib/webparts/crudSharePointList/loc/{locale}.js"
+    "CrudSharePointListWebPartStrings": "lib/webparts/crudSharePointList/loc/{locale}.js",
+    "CrudSharepointPnpjsWebPartStrings": "lib/webparts/crudSharepointPnpjs/loc/{locale}.js"
   }
 }
