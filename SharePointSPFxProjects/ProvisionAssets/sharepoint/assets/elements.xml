@@ -38,8 +38,7 @@
     </CHOICES>
   </Field>  
 
-
-<ContentType ID="0x0100F132E371DCCF4A8E9D08D47E54214C32" 
+  <ContentType ID="0x0100F132E371DCCF4A8E9D08D47E54214C32" 
                Name="SoftwareContentType" 
                Group="Custom Content Types" 
                Description="My Content Type">
@@ -50,16 +49,15 @@
       <FieldRef ID="{86BFF556-D9B5-45CE-8187-E523DEB6F5A5}" />
     </FieldRefs>
   </ContentType>
-  
 
-    <ListInstance 
+  <ListInstance 
     CustomSchema="schema.xml"
     FeatureId="00bfea71-de22-43b2-a848-c05709900100"
     Title="MicrosoftSoftware"    
     Description="Microsoft software"
     TemplateType="100" 
     Url="Lists/MicrosoftSoftware" 
-    >
+  >
     
   </ListInstance>
   

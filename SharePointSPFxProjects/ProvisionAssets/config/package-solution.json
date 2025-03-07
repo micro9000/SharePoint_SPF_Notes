@@ -30,7 +30,15 @@
         "title": "provision-assets Feature",
         "description": "The feature that activates elements of the provision-assets solution.",
         "id": "4e1953ff-c8f2-4e1a-81f3-bb2337cfa729",
-        "version": "1.0.0.0"
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ],
+          "elementFiles": [
+            "schema.xml"
+          ]
+        }
       }
     ]
   },
