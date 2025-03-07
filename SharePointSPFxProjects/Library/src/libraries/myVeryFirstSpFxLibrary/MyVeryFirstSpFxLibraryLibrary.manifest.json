@@ -1,0 +1,9 @@
+{
+  "id": "5106b287-27f2-428f-a8bd-e8166be233f3",
+  "alias": "MyVeryFirstSpFxLibraryLibrary",
+  "componentType": "Library",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2
+}

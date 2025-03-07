@@ -2,9 +2,11 @@ import * as React from "react";
 import styles from "./ReactFunctionComponent.module.scss";
 import type { IReactFunctionComponentProps } from "./IReactFunctionComponentProps";
 import { useEffect, useState } from "react";
+import * as myLibrary from "mySPFxLibrary";
 
 const ReactFunctionComponent = (props: IReactFunctionComponentProps) => {
   const { hasTeamsContext } = props;
+  const myLibraryInstance = new myLibrary.MyVeryFirstSpFxLibraryLibrary();
 
   const [count, setCount] = useState(0);
 
@@ -41,6 +43,7 @@ const ReactFunctionComponent = (props: IReactFunctionComponentProps) => {
         <p>Count: {count}</p>
         <button onClick={incrementCount}>Increment</button>
       </div>
+      {myLibraryInstance.getCurrentTime()}
     </section>
   );
 };
