@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/sites/SPFxTrainingSite/SitePages/SPFxApplicationExtension.aspx",
+      "customActions": {
+        "b35b5493-0222-4849-bf3d-7384bcf8a4ab": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "top": "Header of the page",
+            "bottom": "Footer of the page"
+          }
+        }
+      }
+    },
+    "appCustomizer": {
+      "pageUrl": "https://{tenantDomain}/sites/SPFxTrainingSite/SitePages/SPFxApplicationExtension.aspx",
+      "customActions": {
+        "b35b5493-0222-4849-bf3d-7384bcf8a4ab": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "top": "Header of the page",
+            "bottom": "Footer of the page"
+          }
+        }
+      }
+    }
+  }
+}
