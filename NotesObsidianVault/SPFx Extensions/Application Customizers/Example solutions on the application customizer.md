@@ -1,0 +1,7 @@
+**Example solutions on the application customizers**
+
+- [Microsoft Clarity for modern SharePoint](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-js-application-microsoft-clarity/) by [João Ferreira](https://adoption.microsoft.com/en-us/sample-solution-gallery/joaoferreira/) (Appspace)
+- [News Ticker](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-application-news-ticker/) by [Ari Gunawan](https://adoption.microsoft.com/en-us/sample-solution-gallery/AriGunawan/)
+- [Machine Translations Extension](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-application-machine-translations/) by [Robin Agten](https://adoption.microsoft.com/en-us/sample-solution-gallery/agtenr/) (Delaware Consulting)
+- [Breadcrumb Application Customizer](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-application-breadcrumb/) by [Elio Struyf](https://adoption.microsoft.com/en-us/sample-solution-gallery/estruyf/)
+- [Announcements SharePoint Framework Application Customizer](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-application-announcements/) by [Mike Myers](https://adoption.microsoft.com/en-us/sample-solution-gallery/thespooler/)

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "71f229853766097b",
+        "id": "dd283d8fc2b8f1f0",
         "type": "tabs",
         "children": [
           {
-            "id": "a6f2e5bd3434aba8",
+            "id": "4ac3ada9f1b6bd73",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SPFx Extensions/Field customizers for lists and libraries/Field customizers.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Field customizers"
             }
           }
         ]
@@ -173,8 +177,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aceb818a90c5160b",
+  "active": "4ac3ada9f1b6bd73",
   "lastOpenFiles": [
+    "docs-imgs/Pasted image 20250308232419.png",
+    "SPFx Extensions/001. SharePoint Framework Extensions.md",
+    "SPFx Extensions/Field customizers for lists and libraries/Field customizers.md",
+    "Untitled.canvas",
+    "SPFx Extensions/Field customizers for lists and libraries",
+    "SPFx Extensions/Application Customizers/Example solutions on the application customizer.md",
+    "SPFx Extensions/Application Customizers/Deploy your Extensions to Site Collection.md",
+    "SPFx Extensions/Application Customizers/Application Customizer - React Sample.md",
+    "SPFx Extensions/Application Customizers/Use page placeholders from Application Customizer.md",
+    "SPFx Extensions/Application Customizers",
     "MS 365 CDN/001. Enable the Microsoft 365 CDN.md",
     "012. SharePoint Starter Kit v3.md",
     "011. SharePoint Framework (SPFx) Samples.md",
@@ -182,31 +196,24 @@
     "009. Gulp commands.md",
     "008. Yeoman SharePoint Generator.md",
     "006. Setting the SPFx Hosted Workbench Test Site.md",
-    "SPFx Extensions/004. Deploy your Extensions to Site Collection.md",
     "000. Tools.md",
     "004. SharePoint Workbench.md",
     "003. SharePoint Development Setup.md",
     "002. Reading Lists (Blogs).md",
     "001. SharePoint Framework Client-Side Web Part Samples & Tutorial Materials.md",
     "Markdown References.md",
-    "SPFx Extensions/003. Application Customizer - React Sample.md",
-    "SPFx Extensions/002. Use page placeholders from Application Customizer.md",
     "docs-imgs/Pasted image 20250308201546.png",
     "docs-imgs",
-    "SPFx Extensions/001. SharePoint Framework Extensions.md",
     "MS 365 CDN/002. Host web part from MS 365 CDN.md",
     "Provision Site Columns, Site Content Types and List/002. Site Columns, Site Content Types, Site provisioning in SPFx.md",
     "Provision Site Columns, Site Content Types and List/001. Site Columns, Site Content Types.md",
     "SPFx Library/001. Library Components.md",
     "SPFx WebPart/003. Setting Full Width Layout of your WebPart.md",
     "SPFx WebPart/002. Parts in SPFx Using React Functional Components and Hooks.md",
-    "SPFx WebPart/001. Web part class.md",
-    "005. Install development toolchain prerequisites.md",
     "MS 365 CDN",
     "SPFx Library",
     "Provision Site Columns, Site Content Types and List",
     "SPFx WebPart",
-    "SPFx Extensions",
-    "Untitled.canvas"
+    "SPFx Extensions"
   ]
 }
