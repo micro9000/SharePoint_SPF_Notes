@@ -1,0 +1,3 @@
+- [Displaying the current user permission with PNPJs](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-field-user-permission/) by [Simon Ågren](https://adoption.microsoft.com/en-us/sample-solution-gallery/simonagren/) (Advania)
+- [Toggle Field Customizer](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-field-toggle/) by [Giuliano De Luca](https://adoption.microsoft.com/en-us/sample-solution-gallery/giuleon/)
+- [File Type Renderer](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-field-pnp-file-type-renderer/) by [Alex Terentiev](https://adoption.microsoft.com/en-us/sample-solution-gallery/AJIXuMuK/) (Microsoft)
