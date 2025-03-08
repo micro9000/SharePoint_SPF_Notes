@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/sites/SPFxDevelopmentEnvSite/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "d2a0823f-17ce-4d8c-b919-304b97ecd1ec",
+          "properties": {
+            "sampleText": "Value:"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://{tenantDomain}/sites/SPFxDevelopmentEnvSite/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "d2a0823f-17ce-4d8c-b919-304b97ecd1ec",
+          "properties": {
+            "sampleText": "Value:"
+          }
+        }
+      }
+    }
+  }
+}
