@@ -1,0 +1,3 @@
+Adding references to third-party CSS stylesheets from a URL is different from referencing resources from project packages. While the project configuration in the **config.json** file allows you to specify external resources, it applies only to scripts. To reference CSS stylesheets from a URL, you must use the `SPComponentLoader` instead.
+
+https://learn.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/reference-third-party-css-styles#reference-third-party-css-stylesheets-from-url-in-the-web-part

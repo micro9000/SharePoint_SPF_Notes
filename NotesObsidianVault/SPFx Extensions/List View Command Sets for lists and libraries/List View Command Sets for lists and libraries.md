@@ -14,3 +14,7 @@ E.g
 - [Follow Document](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-web-parts-react-follow-document/) by [André Lage](https://adoption.microsoft.com/en-us/sample-solution-gallery/aaclage/) (Datalynx AG)
 - [Save and convert as PDF by PnP](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-command-convert-to-pdf/) by [Mikael Svenson](https://adoption.microsoft.com/en-us/sample-solution-gallery/wobba/) (Microsoft)
 - [Generate QR Code List Item Command View Set](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-command-qrcode/) by [Hugo Bernier](https://adoption.microsoft.com/en-us/sample-solution-gallery/hugoabernier/) (Microsoft)
+
+
+Read more:
+https://learn.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/building-simple-cmdset-with-dialog-api
