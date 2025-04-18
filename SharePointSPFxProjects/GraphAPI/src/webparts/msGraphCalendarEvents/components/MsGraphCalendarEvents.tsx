@@ -39,7 +39,7 @@ const MsGraphCalendarEvents = ({ spContext }: IMsGraphCalendarEventsProps) => {
 
   console.log(events.value.map((e) => e.subject));
 
-  return <h1>Hi</h1>;
+  return <h1>{events.value.map((e) => e.subject).join(",")}</h1>;
 };
 
 export default MsGraphCalendarEvents;
