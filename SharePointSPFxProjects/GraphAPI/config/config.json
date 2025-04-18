@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/msGraphCalendarEvents/MsGraphCalendarEventsWebPart.manifest.json"
         }
       ]
+    },
+    "show-all-users-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/showAllUsers/ShowAllUsersWebPart.js",
+          "manifest": "./src/webparts/showAllUsers/ShowAllUsersWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "UserProfileInfoWebPartStrings": "lib/webparts/userProfileInfo/loc/{locale}.js",
-    "MsGraphCalendarEventsWebPartStrings": "lib/webparts/msGraphCalendarEvents/loc/{locale}.js"
+    "MsGraphCalendarEventsWebPartStrings": "lib/webparts/msGraphCalendarEvents/loc/{locale}.js",
+    "ShowAllUsersWebPartStrings": "lib/webparts/showAllUsers/loc/{locale}.js"
   }
 }
