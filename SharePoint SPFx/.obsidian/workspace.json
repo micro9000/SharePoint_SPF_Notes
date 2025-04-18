@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microsoft Graph API/Azure AD Permissions.md",
+                "file": "Working with External Libraries/Reference third-party CSS stylesheets from URL in the web part.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure AD Permissions"
+              "title": "Reference third-party CSS stylesheets from URL in the web part"
             }
           }
         ],
@@ -208,16 +208,19 @@
   },
   "active": "ccfc8dc19e1a7be2",
   "lastOpenFiles": [
-    "Microsoft Graph API/MS Graph Clients.md",
+    "Working with External Libraries/External Libraries.md",
+    "Sending Requests to External REST APIs/Working with Anonymous API.md",
+    "009. Gulp commands.md",
+    "006. Setting the SPFx Hosted Workbench Test Site.md",
+    "005. Install development toolchain prerequisites.md",
+    "003. SharePoint Development Setup.md",
     "Microsoft Graph API/Azure AD Permissions.md",
+    "Microsoft Graph API/MS Graph Clients.md",
     "Links.md",
     "Microsoft Graph API/Microsoft Graph Explorer.md",
     "013. Connect to APIs secured with Azure AD.md",
-    "009. Gulp commands.md",
     "Microsoft Graph API/NPM Packages.md",
-    "003. SharePoint Development Setup.md",
     "004. SharePoint Workbench.md",
-    "005. Install development toolchain prerequisites.md",
     "002. Reading Lists (Blogs).md",
     "001. SharePoint Framework Client-Side Web Part Samples & Tutorial Materials.md",
     "000. Tools.md"

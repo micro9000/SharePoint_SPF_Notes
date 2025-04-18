@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/userProfileInfo/UserProfileInfoWebPart.manifest.json"
         }
       ]
+    },
+    "ms-graph-calendar-events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msGraphCalendarEvents/MsGraphCalendarEventsWebPart.js",
+          "manifest": "./src/webparts/msGraphCalendarEvents/MsGraphCalendarEventsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "UserProfileInfoWebPartStrings": "lib/webparts/userProfileInfo/loc/{locale}.js"
+    "UserProfileInfoWebPartStrings": "lib/webparts/userProfileInfo/loc/{locale}.js",
+    "MsGraphCalendarEventsWebPartStrings": "lib/webparts/msGraphCalendarEvents/loc/{locale}.js"
   }
 }
