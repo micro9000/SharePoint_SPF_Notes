@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.7",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "graph-api-test",
+    "libraryId": "367f1a09-8b79-49c2-bd48-23d0b43ca536",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "graph-api-test",
+    "solutionShortDescription": "graph-api-test description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
