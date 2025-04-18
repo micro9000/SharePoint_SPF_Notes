@@ -3,7 +3,7 @@
   "solution": {
     "name": "graph-api-test-client-side-solution",
     "id": "367f1a09-8b79-49c2-bd48-23d0b43ca536",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

@@ -26,6 +26,7 @@ const UserProfileInfo = ({ spContext }: IUserProfileInfoProps) => {
   return (
     <div>
       <p>Display name: {user?.displayName}</p>
+      <p>Display name: {user?.givenName}</p>
     </div>
   );
 };
