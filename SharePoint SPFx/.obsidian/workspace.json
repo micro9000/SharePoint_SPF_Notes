@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "016. Connected WebParts.md",
+                "file": "017. Connect to anonymous APIs using the HttpClient.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "016. Connected WebParts"
+              "title": "017. Connect to anonymous APIs using the HttpClient"
             }
           }
         ],
@@ -250,9 +250,9 @@
   },
   "active": "5a9f0d578dcfa847",
   "lastOpenFiles": [
-    "017..md",
-    "015. JavaScript packages - Which one to use.md",
     "016. Connected WebParts.md",
+    "017. Connect to anonymous APIs using the HttpClient.md",
+    "015. JavaScript packages - Which one to use.md",
     "SPFx Library/001. Library Components.md",
     "002. Reading Lists (Blogs).md",
     "014. Isolated WebPart.md",
