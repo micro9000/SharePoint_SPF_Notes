@@ -1,17 +1,17 @@
 
 ## Location
 
-> Site contents > Sit Assets > Folder
+> Site contents > Sit Assets > WebPart Folder
 
 ## Configuration Steps
 
 ### Run: 
 
-`New-SPOPublicCdnOrigin -Url https://<tenant>.sharepoint.com/SiteAssets/<folder>`
+`New-SPOPublicCdnOrigin -Url https://<tenant>.sharepoint.com/SiteAssets/<webpart-folder>`
 
 ### Verify: 
 
-`New-SPOPublicCdnOrigin -Url https://<tenant>.sharepoint.com/SiteAssets/<folder>`
+`New-SPOPublicCdnOrigin -Url https://<tenant>.sharepoint.com/SiteAssets/<webpart-folder>
 
 ### Get Id
 
@@ -36,4 +36,19 @@ Sample output
 }
 ```
 
+## Upload Assets
+
+```Bash
+gulp build
+gulp bundle --ship
+gulp package-solution --ship
+```
+
+A `/temp` folder will be created inside your SPFx solution, go to that folder, inside that folder there is a `/deploy` folder, drag and drop all the files inside that folder into `https://<tenant>.sharepoint.com/SiteAssets/<webpart-folder>
+
+### Uploaded the `sppkg` file
+
+Once you uploaded the package, this will be the message
+
+![[Pasted image 20250420103033.png]]
 

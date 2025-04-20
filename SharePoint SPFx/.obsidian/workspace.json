@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "61820601b4ff2533",
+        "id": "d3220dc211add02a",
         "type": "tabs",
         "children": [
           {
-            "id": "1d82b1f2e0bf1bb8",
+            "id": "131ece75e2ca1aa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -177,17 +177,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d82b1f2e0bf1bb8",
+  "active": "131ece75e2ca1aa6",
   "lastOpenFiles": [
+    "Hosting + Deployment/MS 365 CDN/Verify if your package or files are coming from CDN.md",
+    "Hosting + Deployment/Host Assets on SharePoint Online.md",
+    "Hosting + Deployment/Host Client Site Assets using Site Assets.md",
+    "docs-imgs/Pasted image 20250420103033.png",
     "docs-imgs/Pasted image 20250420101229.png",
     "docs-imgs/Pasted image 20250420100734.png",
-    "Hosting + Deployment/Host Client Site Assets using Site Assets.md",
-    "Hosting + Deployment/MS 365 CDN/Verify if your package or files are coming from CDN.md",
     "Hosting + Deployment/MS 365 CDN/002. Host web part from MS 365 CDN.md",
     "Hosting + Deployment/MS 365 CDN/001. Enable the Microsoft 365 CDN.md",
     "003. SharePoint Development Setup.md",
     "000. Tools.md",
-    "Hosting + Deployment/Host Assets on SharePoint Online.md",
     "docs-imgs/Pasted image 20250420095915.png",
     "Hosting + Deployment/Host Assets on local server.md",
     "Hosting + Deployment/Deployment Notes.md",
