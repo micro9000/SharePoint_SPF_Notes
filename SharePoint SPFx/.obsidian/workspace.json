@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5760b1ede2068cf3",
+        "id": "61820601b4ff2533",
         "type": "tabs",
         "children": [
           {
-            "id": "b77fff2e0b253dc3",
+            "id": "1d82b1f2e0bf1bb8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hosting + Deployment/Host Client Site Assets using Site Assets.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Host Client Site Assets using Site Assets"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Connect-SPO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,10 +177,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77fff2e0b253dc3",
+  "active": "1d82b1f2e0bf1bb8",
   "lastOpenFiles": [
-    "Hosting + Deployment/Deployment Notes.md",
+    "docs-imgs/Pasted image 20250420101229.png",
+    "docs-imgs/Pasted image 20250420100734.png",
+    "Hosting + Deployment/Host Client Site Assets using Site Assets.md",
+    "Hosting + Deployment/MS 365 CDN/Verify if your package or files are coming from CDN.md",
+    "Hosting + Deployment/MS 365 CDN/002. Host web part from MS 365 CDN.md",
+    "Hosting + Deployment/MS 365 CDN/001. Enable the Microsoft 365 CDN.md",
+    "003. SharePoint Development Setup.md",
+    "000. Tools.md",
+    "Hosting + Deployment/Host Assets on SharePoint Online.md",
+    "docs-imgs/Pasted image 20250420095915.png",
     "Hosting + Deployment/Host Assets on local server.md",
+    "Hosting + Deployment/Deployment Notes.md",
     "009. Gulp commands.md",
     "Hosting + Deployment",
     "docs-imgs/Pasted image 20250420094458.png",
@@ -196,13 +210,6 @@
     "010. Releasing new version of SPFx App.md",
     "008. Yeoman SharePoint Generator.md",
     "006. Setting the SPFx Hosted Workbench Test Site.md",
-    "005. Install development toolchain prerequisites.md",
-    "004. SharePoint Workbench.md",
-    "003. SharePoint Development Setup.md",
-    "002. Reading Lists (Blogs).md",
-    "001. SharePoint Framework Client-Side Web Part Samples & Tutorial Materials.md",
-    "014. Isolated WebPart.md",
-    "015. JavaScript packages - Which one to use.md",
     "docs-imgs/Pasted image 20250419230735.png",
     "docs-imgs/Pasted image 20250418144321.png"
   ]
