@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "a7f767eb4561513f",
+        "id": "7c1b3c91b3a15bee",
         "type": "tabs",
         "children": [
           {
-            "id": "a98023dd65e79fc9",
+            "id": "84863462695027e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Decode authorization token in Azure Function.md",
+                "file": "021 - Localize web parts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decode authorization token in Azure Function"
+              "title": "021 - Localize web parts"
+            }
+          },
+          {
+            "id": "f874cb0f184e50a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "022. Webpart in MS Teams.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "022. Webpart in MS Teams"
+            }
+          },
+          {
+            "id": "b570342f2e4b2fba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "023. Deployment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "023. Deployment"
+            }
+          },
+          {
+            "id": "9d73cab9c44d151f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "009. Gulp commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "009. Gulp commands"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -177,34 +220,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a98023dd65e79fc9",
+  "active": "9d73cab9c44d151f",
   "lastOpenFiles": [
-    "docs-imgs/Pasted image 20250419230735.png",
-    "Decode authorization token in Azure Function.md",
-    "018. Add CI-CD Pipeline for your SharePoint Framework project.md",
-    "docs-imgs/Pasted image 20250418144321.png",
-    "000. Tools.md",
-    "How to replace SharePoint Online Client Extensibility Azure AD application which is provisioned automatically by SharePoint.md",
+    "SharePoint App Catalog.md",
+    "023. Deployment.md",
+    "022. Webpart in MS Teams.md",
+    "021 - Localize web parts.md",
+    "020. Logging Mechanism and Debugging.md",
+    "docs-imgs/Pasted image 20250420002553.png",
+    "016. Connected WebParts.md",
+    "samples.md",
+    "019. Single Part App Pages.md",
     "MS Provisioned Service Principal - SharePoint Online Client Extensibility.md",
+    "Links.md",
     "013. Connect to APIs secured with Azure AD.md",
     "012. SharePoint Starter Kit v3.md",
     "011. SharePoint Framework (SPFx) Samples.md",
-    "Markdown References.md",
-    "018. Connect to Azure AD-secured APIs in SharePoint Framework solutions.md",
     "010. Releasing new version of SPFx App.md",
-    "017. Connect to anonymous APIs using the HttpClient.md",
-    "016. Connected WebParts.md",
-    "015. JavaScript packages - Which one to use.md",
-    "SPFx Library/001. Library Components.md",
-    "002. Reading Lists (Blogs).md",
-    "014. Isolated WebPart.md",
-    "Links.md",
-    "Working with External Libraries/Reference third-party CSS stylesheets from URL in the web part.md",
-    "Working with External Libraries/External Libraries.md",
-    "Sending Requests to External REST APIs/Working with Anonymous API.md",
     "009. Gulp commands.md",
+    "008. Yeoman SharePoint Generator.md",
     "006. Setting the SPFx Hosted Workbench Test Site.md",
     "005. Install development toolchain prerequisites.md",
-    "003. SharePoint Development Setup.md"
+    "004. SharePoint Workbench.md",
+    "003. SharePoint Development Setup.md",
+    "002. Reading Lists (Blogs).md",
+    "001. SharePoint Framework Client-Side Web Part Samples & Tutorial Materials.md",
+    "014. Isolated WebPart.md",
+    "015. JavaScript packages - Which one to use.md",
+    "Decode authorization token in Azure Function.md",
+    "How to replace SharePoint Online Client Extensibility Azure AD application which is provisioned automatically by SharePoint.md",
+    "docs-imgs/Pasted image 20250419230735.png",
+    "docs-imgs/Pasted image 20250418144321.png"
   ]
 }
